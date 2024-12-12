@@ -1,0 +1,2762 @@
+
+@font-face {
+    font-family: Lexend;
+    src: url(../fonts/LexendDeca-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: MartianMono;
+    src: url(../fonts/MartianMono-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: Libre;
+    src: url(../fonts/LibreFranklin-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Encode;
+    src: url(../fonts/EncodeSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+/* this is the HOMEPAGE*/
+
+/*Nav bar decorations*/
+.nav-link{
+    font-size: 13px;
+    margin-left: 10px;
+}
+.logo{
+    font-family: Lexend;
+    font-weight: 600;
+}
+
+.nav-item{
+    font-family: MartianMono;
+    font-weight: 600;
+}
+.nav-item a::before{
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    height: 3px;
+    width: 2rem;
+    background: #858a98;
+    border-radius: 15px;
+    transform: scaleX(0);
+    transition: transform 0.1s linear;
+}
+
+.nav-item a:hover:before{
+    transform: scaleX(1);
+}
+
+
+#contacthome{
+    background-color: rgba(223, 233, 184, 1) ;
+    border-radius: 8px;
+    
+}
+
+#contacthome:hover{
+    background-color:  rgb(164, 179, 110);
+    color: white;
+}
+
+/*Title part of homepage*/
+.htitlespan{
+    background-color:  rgb(201, 157, 195);
+    padding: 3px;
+    color: rgba(251, 253, 241, 1);
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px  rgb(113, 89, 110) ;
+}
+
+
+.titlecon{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    padding-left: 10px;
+    
+}
+.image-title img{
+ max-width: 90%;
+ 
+}
+.image-title{
+min-width: 50%;
+}
+
+.text-title{
+    width: 700px;
+    padding-top: 100px;
+}
+.text-title h3{
+    font-size: 13px;
+    color: rgba(166, 130, 130, 1);
+    font-family: Lexend;
+    font-weight: 500;
+    
+}
+.text-title h1{
+    font-size: 60px;
+    padding-top: 11px;
+    font-family: Encode;
+    font-weight: 800;
+}
+.text-title p{
+    padding: 13px 15px 20px 0px;
+    font-family: inter;
+    font-weight: 500;
+}
+
+/*buttons decorations on homepage*/
+
+#signup{
+    background-color: rgb(201, 157, 195) ;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 2px 2px black ;
+    font-family: Inter;
+    font-weight: 800;
+    border-radius: 4px;
+}
+
+#signup:hover{
+    background-color:   rgb(161, 123, 156);
+    border: 1px solid black;
+    box-shadow: 4px 4px black ;
+    color: white;
+}
+
+#moreinformation{
+    background-color: rgba(251, 253, 241, 1) ;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 2px 2px black ;
+    font-family: Inter;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+#moreinformation:hover{
+    background-color:   rgb(0, 0, 0);
+    border: 1px solid black;
+    box-shadow: 4px 4px  rgb(161, 123, 156) ;
+    color: white;
+}
+
+.smallcircle{
+    filter: invert();
+    width: 16px;
+}
+
+.smallcircle:hover{
+    filter: none;
+    width: 16px;
+}
+
+
+.buttons{
+    padding-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+
+}
+
+.logogif img{
+    max-width: 550px;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+.moreinfo:hover{
+    color: white;
+}
+
+body{
+    background-color: rgba(251, 253, 241, 1);
+    overflow-x: hidden;
+}
+
+/*This is the second frame of the homepage: how can we help you*/
+.frame2{
+    background-color: rgba(223, 233, 184, 1);
+    border: 1px solid;
+}
+
+.frame2cons{
+    display: flex;
+    justify-content: center;
+    padding: 60px 50px 10px 50px;
+}
+
+.frame2cons img{
+    max-width: 150px;
+    max-height: 150px;
+    
+}
+.frame2text{
+    max-width: 250px;
+    font-size: 13px;
+    flex-shrink: 0;
+}
+.frame2text p{
+    font-size: 12px;
+    font-family: Inter;
+}
+.frame2header{
+    display: inline-flex;
+    padding-left: 2rem;
+    padding-top: 5rem;
+}
+.frame2header img{
+    max-width: 30px;
+    max-height: 30px;
+    width: 100%;
+   
+}
+.frame2text h5{
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(157, 192, 111);
+    border-radius: 6px;
+    padding: 0.5rem;
+    border: 1px solid;
+    box-shadow: 2px 2px;
+    font-family: Encode;
+}
+
+
+.help{
+    padding: 10px;
+    font-family: Encode;
+    font-weight: 600;    
+}
+
+.iconstext{
+    display: flex;
+    width: 400px;
+    padding: 30px 40px 0px 0px ;
+    margin-left: 120px;
+    
+}
+.iconstext img{
+    max-width: 40px;
+    max-height: 40px;
+}
+.iconstext p{
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+/*frame 3 of homepage: why trust hackcen*/
+
+.frame3con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.hf3span{
+    background-color: rgb(199, 151, 199);
+    border-radius: 7px;
+    padding: 5px;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px  rgb(113, 89, 110) ;
+
+}
+.frame3con{
+    padding-top: 120px;
+    padding-right: 15px;
+    padding-bottom: 120px;
+}
+
+.frame3h3 h3{
+    font-family: Encode;
+    font-weight: 600;
+    line-height: 1.6;
+}
+.iconstext p {
+    font-family: Inter;
+    font-weight: 500;
+}
+
+/*4th frame of HOMEPAGE: hackcen services*/
+.frame4cons img{
+    width: 150px;
+}
+.frame4cons h4{
+    font-size: 17px;
+    font-family: Encode;
+    font-weight: 700;
+    background-color: rgb(204, 217, 192) ;
+    padding: 0.5rem;
+    border: 1px solid black;
+}
+.frame4cons p{
+    font-size: 13px;
+    padding: 10px;
+    font-family: Inter;
+}
+.frame4{
+    background-color: rgba(223, 233, 184, 1);
+    border: 1px solid;
+}
+.frame4grid{
+        display: grid;
+        grid-template-columns: 
+        repeat(3,300px);
+        gap: 20px;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 100px;
+}
+
+.frame4text{
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.frame4text h3{
+    font-size: 50px;
+    font-family: Encode;
+    font-weight: 700;
+}
+.frame4text p{
+    font-family: Inter;
+}
+
+.frame4butt{
+    width: 150px;
+    padding: 5px;
+    
+    background-color: rgb(175, 143, 171) ;
+   
+    border: 1px solid  rgb(111, 86, 108);
+    box-shadow: 3px 3px  rgb(148, 116, 144) ;
+    border-radius: 8px;
+    font-family: Inter;
+    font-weight: 800;
+}
+.frame4butt a{
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+}
+
+
+.frame4butt:hover{
+    background-color:   rgb(161, 123, 156);
+    border: 1px solid black;
+    box-shadow: 3px 3px black;
+}
+
+.frame4cons{
+    text-align: center;
+    justify-content: center;
+    height: 380px;
+    border: 2px solid black;
+    background-color: rgb(178, 203, 154);
+    border-radius: 40px;
+    box-shadow: 6px 6px  rgb(123, 138, 110);
+}
+.frame4consbutt{
+    width: 80px;
+    padding: 5px;
+    background-color: rgb(217, 192, 214) ;
+    color: black;
+    border: 1px solid  rgb(148, 116, 144);
+    box-shadow: 3px 3px  rgb(148, 116, 144) ;
+    border-radius: 15px;
+    font-size: 13px;
+    font-family: Inter;
+    font-weight: 600;
+    margin: auto;
+}
+
+.frame4consbutt:hover{
+    box-shadow: 3px 3px  rgb(0, 0, 0);
+    background-color: rgb(162, 127, 158);
+    border: 1px solid  rgb(0, 0, 0);
+    color: white;
+}
+.buttonimg{
+    max-width: 14px;
+}
+.modal-content{
+    background-color: rgba(251, 253, 241, 1) ;
+}
+
+.modal-title{
+    font-family: Encode;
+    font-weight: 600;
+}
+
+/*footer decorations*/
+
+footer{
+    background-color: rgb(113, 113, 113);
+    border: 1px solid black;
+}
+.subscribelogodiv{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.formdiv{
+   float: right;
+   padding-top: 10px;
+}
+.formdiv button{
+    width: 50px;
+    height: 30px;
+    font-size: 10px;
+    background-color: rgb(212, 209, 211) ;
+   
+    border: 1px solid black;
+    border-radius: 3px;
+    font-family: Inter;
+    font-weight: 800;
+
+}
+.formdiv input{
+    height: 30px;
+    width: 170px;
+    font-size: 12px;
+
+}
+.subscribe{
+    float: right;
+    text-align: right;
+    width: 400px;
+    padding-right: 20px;
+    color: white;
+}
+.subscribe h5{
+    font-size: 17px;
+    font-family: Encode;
+    font-weight: 700;
+}
+.logodiv img{
+    width: 15px;
+    height: 15px;
+    opacity: 70%;
+    margin-top: 3px;
+}
+.flogo{
+    font-family: Lexend;
+}
+.logodiv{
+    display: flex;
+    gap: 9px;
+
+}
+.logotext{
+    font-size: 13px;
+    font-weight: 500;
+}
+.emailphonediv{
+    display: flex;
+    color: white;
+    font-size: 11px;
+    gap: 50px;
+    padding-left: 20px;
+    font-family: Inter;
+}
+.emailphonediv a{
+    text-decoration: none;
+    color: white;
+}
+.footerlogo{
+    padding-left: 20px;
+}
+.footerlogo a{
+    color: white;
+}
+
+.socials{
+    display: flex;
+    gap: 1rem;
+    padding: 0px 0px 20px 20px ;
+    filter: invert();
+    margin-left: 2%;
+}
+.socials img{
+    max-width: 19px;
+    width: 100%;
+}
+.footersection{
+    background-color: rgba(217, 217, 217, 1);
+    border: 1px solid black;
+}
+.footernav2 ol{
+    list-style: none;
+}
+.footernav2 li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.footernav2 a{
+    text-decoration: none;
+    color: black;
+}
+.footersec{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+
+
+
+/*Testers page*/
+
+/*frame 1 : carousel and main title*/
+.outsidecarousel1{
+    max-width: 100%;
+}
+
+
+.outsidecarousel2{
+    max-width: 900px;
+    margin: auto;
+}
+
+.carouselimg img{
+    border: 1px solid black;
+}
+
+
+
+.testersTitle h1{
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 20px;
+    font-family: Encode;
+    font-size: 45px;
+    font-weight: 700;
+}
+.testersTitle p{
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 20px;
+    font-family: Inter;
+    font-weight: 600;
+}
+.testers{
+    padding-top: 4rem;
+}
+.testersTitle{
+    
+    padding: 1rem;
+}
+.testersTitle p{
+    padding-bottom: 50px;
+}
+/*TESTERS: frame 2 - testimonials */
+
+.gridconsimg img{
+    max-width: 150px;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-shadow: 2px 2px rgb(43, 43, 43);
+}
+
+.gridconstext p{
+    max-width: 300px;
+    font-size: 12px;
+    font-family: Inter;
+}
+.socials{
+    padding-left: 0%;
+}
+.gridconstext{
+    padding-left: 3%;
+}
+
+.gridconstext h4{
+    font-weight: 600;
+}
+
+.staffposition{
+    color: rgb(59, 100, 142);
+}
+
+.brand{
+    text-align: center;
+    color: rgb(100, 100, 100);
+}
+.gridcons{
+    display: flex;
+    transition: transform 0.2s;
+}
+
+.gridcons:hover{
+    transform: scale(1.1);
+}
+
+.frame2testers{
+    padding-top: 8rem;
+}
+.frame2testers h2{
+    text-align: center;
+    font-family: Encode;
+    font-size: 35px;
+    font-weight: 700;
+    color: rgba(251, 253, 241, 1);
+}
+
+.frame2span{
+    background-color: rgba(145, 161, 179, 1);
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 3px 3px black;
+}
+.gridcon{
+    display: grid;
+    grid-template-columns: 
+    repeat(2,450px);
+    gap: 35px;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-right: 2rem;
+    padding-left: 4rem;
+
+}
+
+.frame2final{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 9rem;
+    max-width: 750px;
+    font-family: Inter;
+    font-weight: 800;
+}
+
+/*changing contact buttons in TESTERS */
+
+#contacttesters{
+    background-color: rgb(165, 193, 214) ;
+    border-radius: 8px;
+    
+}
+
+#contacttesters:hover{
+    background-color:  rgb(133, 156, 173);
+    color: white;
+}
+
+/*TESTERS: frame 2 - extra testimonials */
+
+.ratings{
+    max-width: 60px;
+}
+
+.reviewimg img{
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.reviewtext p{
+    max-width: 500px;
+    font-family: Inter;
+}
+
+.reviewtext h4{
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 600;
+    color: rgb(99, 107, 122);
+}
+
+.reviewtext h2{
+    font-family: Inter;
+    font-weight: 700;
+}
+.reviewtext{
+    padding-left: 2rem;
+}
+
+/*TESTERS: frame 2 - talented staff cards */
+.cardrating2 img{
+    max-width: 13px;
+    max-height: 13px;
+    margin-top: 3px;
+}
+
+.card{
+    box-shadow: 2px 2px 50px rgb(0, 0, 0, 0.3);;
+}
+
+.cardrating2{
+    display:inline-flex;
+    gap: 6px;
+}
+.insidecardtxt{
+    display: flex;
+    column-gap: 7rem;
+    justify-content: center;
+}
+.reviewvcards p{
+    font-size: 14px;
+    font-family: Inter;
+}
+
+.reviewvcards h5{
+    font-family: Inter;
+    font-weight: 700;
+}
+.addimg{
+    max-width: 19px;
+}
+.reviewcardbutt{
+    font-size: 15px;
+    background-color: rgb(172, 182, 194) ;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-family: Inter;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.reviewcardbutt:hover{
+    background-color: rgb(112, 118, 126);
+    color: white;
+    box-shadow: 3px 3px black;
+}
+
+.card-body{
+    background-color: rgb(230, 232, 224);
+}
+
+.testmonialreview{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 8rem;
+    flex-wrap: wrap;
+    padding-bottom: 9rem;
+}
+
+.socialstest{
+    filter: none;
+}
+
+.reviewvcards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 6rem;
+}
+
+.reviewcardstitle{
+    text-align: center;
+    padding-top: 7rem;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 800;
+    padding: 1px;
+}
+
+.reviewcardstitle span{
+    border: 2px solid rgb(104, 123, 135);
+    padding: 7px;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgb(109, 108, 108);;
+}
+
+
+/*TESTERS: frame 3 - we are experts  */
+.testersframe3{
+    background: linear-gradient(111.3deg, rgba(163, 181, 181, 1) 9.6%, #adb0b3 93.6%);
+}
+.tframe3title{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 4rem;
+    max-width: 450px;
+    
+}
+.tframe3title h2{
+    font-size: 30px;
+    font-family: Encode;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: rgb(128, 142, 142);
+}
+
+.trustimg{
+    width: 100%;
+    max-width: 270px;
+    padding: 1rem;
+    filter: drop-shadow(3px 3px rgb(0,0,0,0.5));
+}
+.trusttext{
+    max-width: 300px;
+}
+.trustpara{
+    font-size: 13px;
+    font-family: Inter;
+}
+
+.tframe3row{
+    display: grid;
+    grid-template-columns: 
+    repeat(auto-fit,minmax(280px,max-content));
+    gap: 4rem;
+    justify-content: center;
+    padding: 4rem;
+
+}
+.tframecons h5{
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+}
+.tframecons{
+    background-color: rgba(217, 217, 217, 1);
+    padding: 1rem;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: transform 0.2s;
+    box-shadow: 2px 2px 50px rgb(0, 0, 0, 0.3);
+}
+
+.tframecons:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 4px rgb(76, 76, 76);
+}
+
+/*TESTERS: frame 3 - section 2 follow  */
+
+.frame3sec2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    padding-bottom: 3rem;
+    background-color: rgba(217, 217, 217, 1);
+    border: 1px solid black;
+}
+.f3sec2txt{
+    max-width: 450px;
+    width: 100%;
+    padding-top: 7rem;
+}
+.f3sec2txt h4{
+    text-align: center;
+    font-size: 30px;
+    font-family: Encode;
+    font-weight: 700;
+}
+.f3sec2txt p{
+    font-size: 15px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    font-family: Inter;
+}
+.f3sec2txt span{
+    font-weight: 700;
+    color: rgb(149, 108, 149);
+}
+.f3sec2txt button{
+    display: block;
+    margin: auto;
+    font-size: 16px;
+    background-color: rgb(169, 178, 196) ;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-family: Inter;
+    font-weight: 700;
+
+}
+
+.f3sec2txt button:hover{
+    color: white;
+    background-color: rgb(85, 103, 144);
+    box-shadow: 3px 3px black;
+    
+}
+
+
+
+.f3sec2img img{
+    max-width: 550px;
+    width: 100%;
+    filter: drop-shadow(3px 3px black);
+    
+}
+
+/*TESTERS: frame 4 - sign up + details  */
+
+.testersframe4{
+    background-color: rgba(251, 253, 241, 1);
+}
+.tf4con{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    
+}
+.tf4cons{
+    background-color: rgba(217, 217, 217, 1);
+    padding: 1rem;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 3px 3px rgb(83, 80, 80);
+    
+}
+
+.tf4cons button{
+    font-size: 16px;
+    background-color: rgb(146, 156, 176) ;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-family: Inter;
+    font-weight: 700;
+}
+.tf4cons img{
+    max-width: 190px;
+    width: 100%;
+    border: 1px solid black;
+    margin-left: 3rem;
+    
+}
+.tf4cons p{
+    max-width: 300px;
+    text-align: center;    
+    font-family: Inter;
+    font-weight: 600;
+}
+.tf4butt{
+    padding-top: 1rem;
+    margin-left: 7rem;
+}
+
+.tf4cons button:hover{
+    color: white;
+    background-color: rgb(85, 103, 144);
+    box-shadow: 3px 3px black;
+}
+
+
+/*ABOUT US PAGE*/
+
+
+/*changing contact button colour*/
+#contactabout{
+    background-color:rgba(202, 190, 231, 1) ;
+    border-radius: 8px;
+    
+}
+
+#contactabout:hover{
+    background-color:  rgba(144, 123, 194, 1);
+    color: white;
+}
+
+/*ABOUT US PAGE: title section*/
+.af1para img{
+    max-width: 25px;
+    width: 100%;
+}
+
+.af1para{
+    text-align: right;
+    max-width: 290px;
+    font-size: 13px;
+    font-family: Inter;
+    font-weight: 500;   
+}
+.af1titlecon{
+    display: flex;
+    justify-content: space-between;   
+    flex-wrap: wrap; 
+    column-gap: 3rem;
+    padding-top: 5rem;
+}
+
+.af1title h1{
+    font-size: 80px;
+    max-width: 800px;
+    font-family: Encode;
+    font-weight: 700;
+}
+.af1title span{
+    background-color: rgba(144, 123, 194, .9);
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: rgba(251, 253, 241, 1);
+    box-shadow: 3px 3px black;
+    
+}
+
+#subscribebutt{
+    filter: invert();
+}
+
+
+.af1{
+    padding: 1rem;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-bottom: 7rem;
+}
+
+.af1img{
+    width: 100%; 
+    padding-top: 2rem;
+    
+   
+}
+.af1img img{
+    max-width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px rgb(84, 57, 87);
+}
+
+
+/*ABOUT US PAGE: second frame, accreditations*/
+.af2con h2{
+    text-align: center;
+    color: white;
+    font-family: Encode;
+    font-weight: 700;
+    font-size: 35px;
+   
+    
+}
+
+#verified{
+    max-width: 28px;
+}
+.af2consimg{
+    max-width: 75px;
+    padding: 5px;
+    filter: drop-shadow(4px 4px 4px rgb(131, 91, 196));
+   
+    
+}
+
+.af2gridcon{
+    display: grid;
+    grid-template-columns: 
+    repeat(auto-fit,minmax(150px,1fr));
+    justify-content: center;
+    padding: 2rem 0px 1rem 0px;
+    row-gap: 1rem;
+    column-gap: 4rem;
+}
+
+#iasme{
+    max-width: 200px;
+}
+
+.af2cons{
+   justify-self: center;
+   text-align: center;  
+   background: linear-gradient(111.3deg, #d6c8e7 9.6%, #b19eeb 93.6%);
+   width: 190px;
+   padding: 1rem;
+   padding-top: 2rem;
+   border-radius: 50px;
+   border: 1px solid black;
+   transition: transform 0.2s;
+   box-shadow: 2px 2px 15px rgb(46, 44, 44);
+
+}
+
+.af2cons:hover{
+    transform: scale(1.1);
+    box-shadow: 6px 6px rgb(0, 0, 0);
+    background-color: rgb(198, 189, 213);
+}
+
+.af2conslink{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.af2cons h4{
+    font-family: Inter;
+    font-weight: 600;
+    text-decoration: underline solid transparent;
+    transition: text-decoration 0.1s ease;
+    
+}
+
+.af2cons h4:hover{
+    text-decoration: underline solid rgb(64, 63, 64);
+    text-decoration-thickness: 1.5px;
+    
+}
+
+.af2conslink:hover{
+    color: black;
+    
+}
+
+.af2para{
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    padding: 1rem;
+    color: white;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+
+.af2{
+    background: linear-gradient(111.3deg, #7734cf 9.6%, #3c7cc5 93.6%);
+    
+    padding-top: 3rem;
+    border: 1px solid;
+}
+
+/*FRAME 3 OF ABOUT US PAGE: how it started*/
+
+.af3img img{
+    max-width: 680px;
+    float: right;
+    width: 100%;
+}
+
+.af3con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.af3textcon{
+    max-width: 650px;
+    padding: 1rem;
+    padding-top: 6rem;
+}
+
+.af3textcon h3{
+    font-size: 35px;
+    padding-bottom: 1rem;
+    font-family: Encode;
+    font-weight: 600;
+}
+
+.servericon{
+    max-width: 33px;
+}
+
+.af3textcon p{
+    font-family: Inter;
+}
+
+.af3textcon span {
+    color: rgb(122, 75, 198);
+    font-weight: 700;
+}
+
+
+.af3{
+    padding: 4rem 4rem;
+}
+
+/*About us: frame 4, Hacken stories*/
+
+.af4innerimg img{
+    max-width: 500px;
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0,0.5);
+    border-radius: 2px;
+    box-shadow: 1px 1px 50px rgb(81, 68, 103);
+}
+
+
+
+#miniicon{
+    max-width: 21px;
+}
+
+.af4inner1text{
+    max-width: 600px;
+    padding-top: 1rem;
+}
+.af4inner1text h5{
+    font-size: 15px;
+    font-family: Inter;
+    color: rgb(85, 85, 85);
+}
+
+.af4inner1text h4{
+    font-family: Inter;
+    font-weight: 600;
+}
+
+
+#af4inner1para1{
+    font-size: 11px;
+    font-family: Inter;
+    color: rgb(85, 85, 85);
+   
+}
+
+#af4inner1para2{
+    font-size: 14px;
+    font-family: Inter;
+}
+
+.af4inner1{
+    max-width: fit-content;
+    width: 100%;
+    padding: 1rem;
+}
+
+
+
+.af4butt{
+    font-size: 16px;
+    background-color: rgb(158, 119, 190) ;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-family: Inter;
+    font-weight: 700;
+    box-shadow: 2px 2px rgb(91, 54, 125);
+}
+
+.af4butt:hover{
+    box-shadow: 3px 3px rgb(0, 0, 0);
+    background-color: rgb(118, 84, 146) ;
+    color: rgb(228, 227, 227);
+}
+
+#af4inner2h3{
+    text-align: center;
+    font-size: 20px;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 2px;
+    box-shadow: 2px 2px black;
+    font-family: Inter;
+    font-weight: 700;
+    background: linear-gradient(111.3deg, #a88fcc 9.6%, #8970b7 93.6%) ;
+}
+
+.af4inner2constext{
+    width: 400px;
+    padding-left: 1rem;
+}
+
+.af4inner2constext h4{
+    font-size: 16px;
+    
+    border-radius: 5px;
+    box-shadow: 3px 3px rgb(115, 77, 147);
+    padding: 0.5rem;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: Inter;
+}
+
+.af4inner2constext h4:hover{
+    box-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+.af4inner2constext h5{
+    font-size: 13px;
+    font-family: Inter;
+    color: rgb(75, 74, 74);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.af4inner2constext p{
+    font-size: 11px;
+    font-family: Inter;
+    color: rgb(75, 74, 74);
+}
+
+.af4inner2consimg{
+    max-width: 125px;
+    width: 100%;
+    
+}
+
+.articleicons{
+    max-width: 23px;
+}
+
+.af4inner2consimg img{
+    border: 1px solid black;
+    box-shadow: 1px 1px 30px rgb(145, 141, 141,0.8);
+    border-radius: 3px;
+}
+.af4inner2cons{
+    display: flex;
+    transition: transform 0.2s;
+}
+.af4inner2cons:hover{
+    transform: scale(1.05);
+}
+
+.af4outercon{
+    display: flex;
+    justify-content: center;
+    column-gap: 7rem;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+}
+
+.af4inner2flex{
+    display: flex;
+    row-gap: 4rem;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.af4contitle{
+    text-align: center;
+    padding-bottom: 5rem;
+    font-family: Encode;
+    font-weight: 600;
+    font-size: 40px;
+    
+}
+
+.af4con span{
+    color: rgb(116, 77, 166);
+    font-weight: 700;
+}
+
+.af4butt2{
+    margin: auto;
+}
+
+.af4butt a{
+    text-decoration: none;
+    color: black;
+}
+
+.af4inner2{
+    max-width: fit-content;
+    width: 100%;
+    padding: 1rem;
+}
+
+.af4{
+    background: linear-gradient(111.3deg, rgba(251, 253, 241, 1) 9.6%, #d1c0e0 93.6%);
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    border: 1px solid black;
+}
+
+
+/*About us: frame 5, mini achievements section*/
+
+.af5cons{
+    text-align: center; 
+    max-width: 200px;  
+    width: 100%;
+    margin: auto;
+    color: white;
+}
+
+.af5cons h4{
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.af5cons p{
+    font-family: Inter;
+}
+
+.af5con{
+    display: grid;
+    grid-template-columns: 
+    repeat(auto-fit,minmax(220px,1fr));
+    justify-content: center;
+    row-gap: 2rem;
+    padding-top: 1rem;
+
+}
+
+.af5{
+    background-color: rgba(144, 123, 194, 1);
+}
+
+/*About us: frame 6, How hackcen does it*/
+
+.af6gridcons img{
+    max-width: 40px;
+    width: 100%;
+}
+.af6gridcons p {
+ font-size: 15px;
+ font-family: Inter;
+}
+
+
+.af6gridcon{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    column-gap: 4rem;
+    row-gap: 2rem;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.af6gridcons h4{
+    font-family: Inter;
+    font-weight: 600;
+}
+
+.af6title h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: Encode;
+    font-weight: 700;
+}
+
+
+
+.af6gridcons1{
+    grid-column: 1 / span 2;
+    
+}
+.af6gridcons1 img{
+    max-width: 765px;
+    width: 100%;
+    border: 1px solid black;
+}
+.af6gridcons1 p{
+    max-width: 600px;
+    margin: auto;
+    font-size: 17px;
+    padding: 1rem;
+    font-family: Inter;
+    font-weight: 500;
+   
+}
+
+.af6gridcons1{
+    background-color: rgba(144, 123, 194, 1);
+    color: white;
+}
+.af6gridcons{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+
+
+.af6con{
+    padding: 5rem 9rem;
+    border-top: 1px solid black;
+}
+
+
+/*About us: frame 7, our partners + animation*/
+
+.vidcon img{
+    max-width: 450px;
+    width: 100%;
+}
+
+
+
+.af7con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.af7textcon{
+    max-width: 400px;
+    padding-top: 15rem;
+}
+
+.af7textcon h4{
+    font-family: Inter;
+    font-weight: 600 ;
+}
+
+.af7textcon p{
+    font-family: Inter;
+}
+
+.af7{
+    padding-bottom: 5rem;
+}
+
+
+
+
+
+
+/*WHY HACKCEN PAGE*/
+
+
+/*FRAME 1 WHY HACKCEN: carousel and title*/
+
+#whycontact{
+    background-color: rgb(230, 205, 94) ;
+    border-radius: 8px;
+    
+}
+
+#whycontact:hover{
+    background-color:  rgb(193, 175, 58);
+    color: white;
+}
+.wf1textouter{
+    background-color: rgba(239, 215, 135, 1);
+}
+.carouseldiv{
+    background-color: rgba(239, 215, 135, 1);
+    border: 2px solid rgb(208, 171, 25);
+}
+
+.wf1textcon h1{
+    font-family: Encode;
+    font-weight: 600;
+}
+
+.wf1textcon p{
+    font-family: Inter;
+    font-weight: 500;
+}
+
+.wf1textcon{
+    max-width: 450px;
+    padding: 3rem;
+}
+.wf1textcon img{
+    max-width: 30px;
+}
+
+.wf1textcon button{
+    font-size: 16px;
+    background-color: rgb(231, 210, 121) ;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-family: Inter;
+    font-weight: 700;
+    box-shadow: 2px 2px rgb(194, 167, 18);
+
+}
+
+.wf1textcon button:hover{
+    box-shadow: 3px 3px rgb(0, 0, 0);
+    background-color: rgb(186, 150, 43) ;
+    color: rgb(255, 255, 255);
+}
+
+.messageicon{
+    width: 18px;
+}
+
+
+.wf1con{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.w1fcarousel img{
+    max-width: 450px;
+    width: 100%;
+
+}
+
+
+.w1fcarousel{
+    max-width: 450px;
+    width: 100%;
+}
+
+
+
+.wf1{
+    padding-top: 5rem;
+
+}
+
+/*WHY HACKCEN: frame 2, why choose hackcen*/
+
+.wf2 h2{
+    text-align: center;
+    padding-bottom: 6rem;
+    font-family: Encode;
+    font-weight: 600;
+    
+}
+
+.wf2span{
+    background-color: rgba(246, 221, 118, 1) ;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgb(186, 150, 43) ;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+
+
+.wf2divtext{
+    max-width: 450px;
+    margin-top: 10%;
+    padding: 1rem;
+
+}
+.wf2divtext h3{
+    font-size: 35px;
+    font-family: Inter;
+    font-weight: 600;
+    text-decoration: underline rgba(246, 221, 118, 1) ;
+    
+}
+
+.wf2divtext p{
+    font-family: Inter;
+}
+
+.wf2divimg{
+    padding: 4px;
+}
+.wf2div1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+}
+
+.wf2div2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+
+}
+
+.wf2div3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+}
+
+
+.wf2{
+    padding-top: 8rem;
+}
+
+/*WHY HACKCEN: frame 3, mini section on how hackcen helps*/
+
+.wf3cons img{
+    max-width: 150px;
+    width: 100%;
+    filter: drop-shadow(4px 4px rgb(216, 180, 35));
+}
+
+.wf3cons p{
+    max-width: 300px;
+    font-size: 13px;
+    font-family: Inter;
+    
+}
+
+.wf3cons h4{
+    font-family: Inter;
+    font-weight: 600;
+}
+
+.wf3{
+    background-color: rgba(246, 221, 118, 1);
+    padding-top: 3rem;
+    border: 1px solid black;
+}
+
+.wf3con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+.wf3cons{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+/*WHY HACKCEN: frame 4-  prices*/
+
+.wf4pricescons img{
+    max-width: 40px;
+}
+
+.wf4checkdiv img{
+    max-width: 20px;
+    max-height: 20px;
+}
+.wf4checkdiv{
+    max-width: 250px;
+    font-size: 13px;
+    display: flex;
+    gap: 0.5rem;
+    padding-bottom: 1rem;
+}
+.wf4checkdiv p{
+    font-family: Inter;
+}
+
+.wf4pricescons{
+    box-shadow: 4px 4px 100px rgb(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.wf4pricescons:hover{
+    transform: scale(1.04);
+    box-shadow: 4px 4px rgb(0, 0, 0);
+}
+
+.wf4pricescons > p{
+    max-width: 350px;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    
+}
+
+
+
+.wf4startercon h5{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: underline;
+    color: rgb(189, 127, 27);
+}
+
+.wf4startercon h4{
+    font-size: 27px;
+    font-family: Inter;
+    font-weight: 700;
+    padding-top: 8px;
+}
+
+.wf4procon h5{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.wf4procon h4{
+    font-size: 27px;
+    font-family: Inter;
+    font-weight: 700;
+    padding-top: 8px;
+}
+
+
+.mo{
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+.wf4pricesouter{
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    padding-bottom: 7rem;
+}
+
+#popular{
+    font-size: 10px;
+    font-family: Inter;
+    font-weight: 700;
+    
+}
+
+.popularborder{
+    padding: 5px;
+    color: black;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.wf4startercon{
+    background-color: rgba(223, 221, 215, 1);
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.wf4procon{
+    background-color:rgba(228, 182, 53, 1);
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.wf4advanceedcon{
+    background-color:rgba(10, 9, 9, 1);
+    padding: 2rem;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.wf4advanceedcon h4{
+    font-size: 27px;
+    font-family: Inter;
+    font-weight: 700;
+    padding-top: 8px;
+
+}
+
+.wf4adpop{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.wf4advanceedcon h5{
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 700;
+    padding-top: 8px;
+    text-decoration: underline;
+}
+
+.wf4startercon button{
+    font-size: 16px;
+    background-color: rgb(240, 194, 94) ;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-family: Inter;
+    font-weight: 700;
+    box-shadow: 2px 2px rgb(215, 177, 62);
+}
+
+.wf4procon button{
+    font-size: 16px;
+    background-color: rgb(0, 0, 0) ;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: white;
+    font-family: Inter;
+    font-weight: 700;
+    box-shadow: 2px 2px rgb(158, 122, 12);
+}
+
+.wf4advanceedcon button{
+    font-size: 16px;
+    background-color: rgb(255, 255, 255) ;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-family: Inter;
+    font-weight: 700;
+    box-shadow: 2px 2px rgb(209, 173, 15);
+}
+
+.invertarrowpro{
+    filter: invert();
+}
+
+.wf4titlediv{
+    text-align: center;
+    max-width: 550px;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+
+.wf4titlediv h2{
+    font-family: Encode;
+    font-weight: 600;
+}
+
+.wf4titlediv p{
+    font-family: Inter;
+}
+
+
+.wf4{
+    padding-top: 5rem;
+}
+
+/*WHY HACKCEN: frame 4 - transform systems*/
+
+.wf4con2img img{
+    max-width: fit-content;
+    width: 100%;
+    border-right: 1px solid black;
+}
+
+.wf4context{
+    max-width: 700px;
+    width: 100%;
+    padding: 3rem;
+}
+
+.wf4context h3{
+    font-family: Encode;
+    font-weight:600 ;
+}
+
+.wf4context p{
+    font-family: Inter;
+    padding-top: 10px;
+}
+
+.wf4context button{
+    font-size: 16px;
+    background-color: rgb(232, 199, 128) ;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-family: Inter;
+    font-weight: 700;
+    box-shadow: 2px 2px rgb(215, 177, 62);
+}
+
+.wf4context button:hover{
+    background-color: rgb(206, 163, 70) ;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+
+
+.wf4con2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(246, 221, 118, 1);
+    justify-content: center;
+    max-width: max-content;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px black;
+    
+}
+.wf4titlediv a{
+    color: black;
+    font-weight: 600;
+}
+
+/*WHY HACKCEN: frame 5 - more information on services*/
+
+.wf5outercons{
+    display: grid;
+
+    grid-template-columns: 
+    repeat(auto-fit,minmax(250px,300px));
+    gap: 2rem;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.wf5servicescon img{
+    max-width: 60px;
+}
+.wf5servicescon p{
+    font-size: 14px;
+}
+
+.wf5servicescon{
+    background-color: rgba(246, 221, 118, 1);
+    padding: 1.5rem;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+}
+.wf5{
+    padding: 6rem 6rem;
+}
+.wf5title{
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.wf5title h3{
+    font-family: Encode;
+    font-weight: 700;
+}
+
+.wf5title p{
+    font-family: Inter;
+
+}
+
+.wf5 > h4{
+    padding: 1rem;
+    text-align: center;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 600;
+    text-decoration: underline rgb(246, 229, 102);
+}
+
+.servicesicon{
+    width: 30px;
+    padding-left: 5px;
+}
+
+.wf5servicescon h5{
+    font-family: Inter;
+    padding-top: 3px;
+    font-weight: 600;
+}
+
+.wf5servicescon p{
+    font-family: Inter;
+}
+
+.wf5servicescon a{
+    text-decoration: none;
+    color: black;
+}
+
+.wf5servicescon a:hover{
+    color: black;
+}
+
+.wf5servicescon button{
+    font-size: 16px;
+    background-color: rgb(232, 209, 158) ;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-family: Inter;
+    font-weight: 700;
+    box-shadow: 2px 2px rgb(215, 177, 62);
+}
+
+.wf5servicescon button:hover{
+    background-color: rgb(198, 165, 95) ;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+/*CONTACT PAGE*/
+
+.cf1form input,label{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.names, .companyphone{
+    display: inline-block;
+}
+
+.dateplace{
+    display: flex;
+    column-gap: 4px;
+    flex-wrap: wrap;
+}
+
+#cf1titlepara{
+    max-width: 500px;
+    font-family: Inter;
+}
+
+.paraspan{
+    background-color: rgb(233, 184, 192);
+    padding: 2px;
+    font-weight: 600;
+}
+
+
+.links{
+    text-decoration: underline 1.6px  rgb(233, 184, 192) ;
+    color: black;
+}
+
+.cf1con{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+}
+
+.cf1form label{
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.cf1form select{
+  background-color: rgb(228, 194, 200);
+  border: 1px solid black;
+  box-shadow: 2px 2px rgb(192, 158, 164);
+  border-radius: 3px;
+}
+
+.cf1form input{
+    box-shadow: 1px 1px rgb(192, 158, 164);
+}
+
+.cf1form input:focus{
+    outline: auto;
+    box-shadow: 4px 4px black;
+}
+
+
+.email input{
+    max-width: 510px;
+    width: 100%;
+    height: 40px;
+
+}
+
+.names input{
+    height: 40px;
+}
+
+.companyphone input{
+    height: 40px;
+    
+
+}
+.dateplaceinner input{
+    height: 40px;
+    width: 15rem;
+}
+
+.dateplaceinner select{
+    height: 40px;
+}
+
+.planselect select{
+    height: 40px;
+    width: 15rem;
+}
+
+.message textarea{
+    width: 24rem;
+    height: 9rem;
+    box-shadow: 2px 2px rgb(192, 158, 164);
+}
+.cf1text2{
+    display: inline-flex;
+    gap: 1rem;
+}
+.message{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.formsubmit{
+    width: 150px;
+    font-size: 16px;
+    background-color:  rgb(234, 213, 217) ;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+.formsubmit:hover{
+    background-color:  rgb(184, 146, 153) ;
+}
+
+.contacticons{
+    width: 40px;
+    padding-bottom: 5px;
+}
+
+.cf1text h5{
+    font-size: 15px;
+    color: rgba(166, 130, 130, 1);
+    font-family: Lexend;
+    font-weight: 400;
+}
+
+.cf1text h1{
+    font-size: 60px;
+    font-family: Encode;
+    font-weight: 600;
+}
+
+.cf1form label{
+    font-size: 14px;
+    padding-bottom: 2px;
+    padding-top: 1rem;
+}
+
+.cf1con{
+    padding-top: 5rem;
+}
+
+.cf2cons{
+    background-color: rgb(205, 175, 180);
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 3px 3px  rgb(181, 153, 157) ;
+}
+
+.cf2con{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px,250px));
+    gap: 1rem;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.cf2con h3{
+    font-size: 19px;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+#newslettersubmit{
+    width: 90px;
+    font-size: 14px;
+    height: 30px;
+}
+
+
+.cf2con p{
+    font-size: 13px;
+    font-family: Inter;
+}
+
+.cf2conssub{
+    grid-column: 1 / span 3;
+}
+
+.cf2cons label{
+    font-family: Inter;
+    font-weight: 600;
+}
+
+#contactcontact{
+    background-color:  rgb(205, 175, 180) ;
+    border-radius: 8px;
+}
+
+#contactcontact:hover{
+    background-color:   rgb(158, 118, 125);
+    color: white;
+}
+
+/*THANK YOU PAGE: after submitting*/
+
+.thankyoubody{
+    background-color: rgba(251, 253, 241, 1);
+}
+
+.thankyouimg img{
+    max-width: 550px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.thankyoutxt{
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.thankyoutxt h1{
+    font-family: Encode;
+    font-size: 35px;
+}
+
+.thankyoutxt p{
+    font-family: Inter;
+}
+
+#thankyoubutt{
+    font-size: 16px;
+    background-color: rgb(201, 143, 249) ;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-family: Inter;
+    font-weight: 700;
+    box-shadow: 2px 2px rgb(91, 54, 125);
+    
+}
+
+#thankyoubutt:hover{
+    box-shadow: 3px 3px rgb(0, 0, 0);
+    background-color: rgb(118, 84, 146) ;
+    color: rgb(255, 255, 255);
+}
+
+/* contact submit button thank you page */
+
+.contactsubmitbody{
+    background-color: rgba(251, 253, 241, 1);
+}
+
+.csimgcon img{
+    max-width: 450px;
+    width: 100%;
+}
+
+.cscon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+.cstextcon{
+    font-family: Inter;
+    max-width: 400px;
+    padding: 2rem;
+}
+.cstextcon h1{
+    font-family: Encode;
+}
+.cstextcon p {
+    font-family: Inter;
+}
+
+
+
+
+@media (max-width:1260px){
+    .af1title h1{
+        font-size: 55px;
+        max-width: 600px;
+    }
+}
+
+@media (max-width:1200px){
+    .row{
+        max-width: 100%;
+    }
+    .frame2cons img{
+        max-width: 60%;
+        max-height: 60%;
+    }
+    .af1title h1{
+        font-size: 50px;
+        max-width: 400px;
+    }
+    .af1para{
+        text-align: right;
+        max-width: 250px;
+        font-size: 10px;   
+    }
+    .af1para img{
+        max-width: 19px;
+        width: 100%;
+    }
+
+    .af6gridcon{
+        display: grid;
+        grid-template-columns: repeat(2, 350px);
+        column-gap: 4rem;
+        row-gap: 2rem;
+        justify-content: center;
+    }
+
+}
+
+
+
+@media (max-width:991px){
+    .frame2cons{
+        padding-bottom: 15px;
+        padding-top: 25px;
+        max-width: 90%;
+        padding-left: 80px;
+    }
+    
+    .frame4grid{
+        display: grid;
+        grid-template-columns: 
+        repeat(2,300px);
+        gap: 20px;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 100px;
+}
+
+    
+}
+
+@media (max-width:952px){
+    .gridcon{
+        display: grid;
+        grid-template-columns: 
+        repeat(1,450px);
+        gap: 35px;
+        justify-content: center;
+        padding-top: 5rem;
+        padding-left: 6rem;
+    
+    }
+    .cstextcon{
+        text-align: center;
+    }
+}
+
+
+@media (max-width:850px){
+    .af7textcon{
+        max-width: 400px;
+        padding-top: 2rem;
+        padding: 0.5rem;
+    }
+}
+
+
+@media (max-width:811px){
+    .af1para{
+        text-align: left;
+        max-width: 600px;
+        font-size: 12px;  
+        padding-top: 1rem; 
+    }
+    .af1para img{
+        max-width: 15px;
+        width: 100%;
+    }
+    .af1img{
+        width: 100%; 
+        padding-top: 0;
+       
+    }
+    .af6gridcons1{
+        grid-column: 1 / span 1;
+        width: 100%;
+    }
+
+    
+    .af6gridcon{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 350px);
+        column-gap: 4rem;
+        row-gap: 2rem;
+        justify-content: center;
+    }
+
+    .cf2con{
+        display: grid;
+        grid-template-columns: repeat(1, minmax(250px,350px));
+        gap: 1rem;
+        justify-content: center;
+        padding-top: 3rem;
+    }
+
+    .cf2conssub{
+        grid-column: 1 / span 1;
+    }
+
+    
+    
+}
+
+
+
+
+@media (max-width:540px) {
+    .text-title{
+        max-width: 90%;
+    }
+    .text-title h1{
+        max-width: 100%;
+    }
+
+    .frame3h3 h3{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 50px;
+
+    }
+    .frame3h3{
+        width: 90%;
+        margin: auto;
+    }
+    .frame3img{
+        max-width: 100%; 
+        margin-left: 20px;
+        padding-bottom: 35px;
+    }
+    .frame3img img{
+        max-width: 100%;
+    }
+    .frame3con{
+        max-width: 90%;
+    }
+    .frame2cons{
+        padding-bottom: 15px;
+        padding-top: 25px;
+        max-width: 90%;
+        padding-left: 80px;
+    }
+    .frame2cons img{
+        max-width: 75%;
+        max-height: 75%;
+    }
+    .text-title h1{
+        font-size: 36px;
+        width: 400px;
+        text-align: center;
+    }
+    .text-title p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .buttons{
+        padding-left: 20%;
+        padding-bottom: 60px;
+    }
+    .image-title{
+        padding-bottom: 50px;
+    }
+    
+    .frame4text{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        padding-top: 40px;
+    }
+    .frame4cons h4{
+        font-size: 17px;
+    }
+    .frame4cons p{
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .frame4grid{
+        display: grid;
+        grid-template-columns: 
+        repeat(1,300px);
+        gap: 20px;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 100px;
+}
+   .emailphonediv p {
+    font-size: 10px;
+   }
+   .emailphonediv{
+    padding-right: 20px;
+    gap: 25px;
+   }
+   .subscribe h5{
+    font-size: 15px;
+    width: 200px;
+    text-align: right;
+    float: right;
+   }
+   .formdiv button{
+    width: 40px;
+    height: 18px;
+    font-size: 7px;
+}
+    .formdiv input{
+    height: 18px;
+    width: 160px;
+    font-size: 10px;
+}
+.formdiv{
+    padding-bottom: 60px;
+}
+.footernav1 p{
+    font-size: 9px;
+}
+.footernav2 a{
+    font-size: 9px;
+}
+.footernav2 li{
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.footerlogo a{
+    font-size: 16px;
+}
+
+.footerlogo img{
+    width: 20px;
+    height: 20px;
+}
+.gridconstext p{
+    max-width: 250px;
+    font-size: 11px;
+}
+.gridconstext{
+    max-width: 50%;
+}
+
+.cstextcon p{
+    font-size: 14px;
+}
+
+.cstextcon h1{
+    font-size: 20px;
+}
+
+}
+
+@media (max-width:452px){
+    .af4inner2constext h4{
+        font-size: 16px;    
+    }
+    .af4inner2constext h5{
+        font-size: 14px;
+    }
+    .testersTitle h1{
+        font-size: 25px;
+    }
+
+    .testersTitle p{
+        font-size: 14px;
+    }
+    .reviewcardstitle span{
+        border: none;
+        box-shadow:none ;
+    }
+
+    .cf1form{
+     padding-left: 3rem;
+
+    }
+
+    .cf1form input{
+        width: 250px;
+        height: 40px;
+    
+    }
+
+      
+    .message textarea{
+        width: 18rem;
+        height: 9rem;
+        
+    }
+
+    .message{
+        padding-bottom: 2rem;
+    }
+
+    .cf1text{
+        padding: 1rem;
+    }
+
+    .af2gridcon{
+        display: grid;
+        grid-template-columns: 
+        repeat(1,minmax(150px,1fr));
+        justify-content: center;
+        padding: 2rem 0px 1rem 0px;
+        row-gap: 1rem;
+        column-gap: 4rem;
+    }
+
+}
+
+@media (max-width:390px){
+   
+    #signup{
+        font-size: 13px;
+    
+    }
+
+    #moreinformation{
+        font-size: 13px;
+        
+    }
+
+    .smallcircle{
+        width: 15px;
+    }
+
+    .frame2 img{
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .frame4text h3{
+        font-size: 25px;
+    }
+
+    .frame4text p{
+        font-size: 14px;
+    }
+
+    .subscribe h5{
+        font-size: 13px;
+    }
+
+    
+
+    .af3textcon p{
+        font-size: 12px;
+
+    }
+
+    
+    .af6con h3{
+    text-align: center;
+    font-size: 20px;
+    font-family: Encode;
+    font-weight: 700;
+    }
+
+    .lastbutt{
+       margin-right: 500px;
+    }
+
+    .f3sec2txt h4{
+        font-size: 20px;
+        padding: 1rem;
+    }
+    .f3sec2txt p{
+        font-size: 13px;
+        padding: 1rem;
+    }
+
+   
+}
+
+
